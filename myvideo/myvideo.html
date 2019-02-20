@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+	<meta charset="UTF-8">
+	<title>myvideo</title>
+	<link rel="stylesheet" type="text/css" href="myvideo.css">
+</head>
+<body>
+	<div id="main_video">
+		<header>我的影片測試</header>
+		<video poster="images/pig1.jpg" width="400" height="300" controls preload >
+			<source src="videos/tweetsip.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2" / '>
+			<source src="videos/tweetsip.webm" type='video/webm;codecs="vp8, vorbis"' />
+			<p>我的影片測試</p>
+		</video>
+		<hr />
+		<header>我的音訊測試</header>
+		<audio controls  preload>
+			<source src="videos/tweetsip.ogv" ><!--實際應為ogg檔-->
+			<p>我的音訊測試</p>
+		</audio>
+		<p style="font-size:80%;">影音來源:<a href="https://www.books.com.tw/products/0010596057"><cite>《深入淺出HTML&amp;CSS》</cite></a>書內之範例</p>
+	</div>
+</body>
+</html>

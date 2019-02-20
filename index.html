@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Gene Huang's personal Website" />
+    <meta name="keyword" content="website,personal,gzohuang" />
+    <!--測試標著作者,以及到期日-->
+    <meta http-equiv="author" content="Gene Huang" />
+    <meta http-equiv="expires" content="Fri, 22 October 2220 23:59:59 GMT" />
+    <title>Gzo Huang's Personal Website</title>
+
+    
+    <!-- swiper_jq -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.6/css/swiper.min.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!--JS-->
+    <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="js/all.js"></script>
+
+
+</head>
+
+<body>
+   
+    <div id="wrap">
+        <!--標頭-->
+        <header id="head">
+            <img  id="logo" src="images/logo.png" alt="標題圖片" />
+        </header>
+            <nav>
+                <ul>
+                    <li><a href="#AboutMe">About Me</a></li>
+                    <li><a href="#Skills">Skills</a></li>
+                    <li><a href="#Works">Works</a></li>
+                    <li>
+                        <a href="#" id="slideBtn-jq">Contact</a>
+                        <ul id="slide">
+                            <li><a href="#">Email</a></li>
+                            <li><a href="#">Phone</a></li>
+                            <li><a href="#">Line</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+            <div id="main">
+                <!--AboutMe-->
+                <div class="d_row">
+                    <section id="AboutMe">
+                        <header class="mainTitle">About Me</header>
+                          <!-- swiper -->
+                         <!-- Slider main container -->
+                        <div class="swiper-container">
+                            <!-- Additional required wrapper -->
+                            <div class="swiper-wrapper">
+                            <!-- Slides -->
+                                <div class="swiper-slide">
+                                    <img src="images/myphoto_1S.jpg">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="images/myphoto_2S.jpg">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="images/myphoto_3S.jpg">
+                                </div>
+                            
+                            </div>
+                            <!-- If we need pagination -->
+                            <div class="swiper-pagination"></div>
+
+                            <!-- If we need navigation buttons -->
+                            <!-- <div class="swiper-button-prev"></div> -->
+                            <!-- <div class="swiper-button-next"></div> -->
+
+                            <!-- If we need scrollbar -->
+                            <div class="swiper-scrollbar"></div>
+                        </div>
+
+
+
+                        <ul>
+                            <li>2018年7月起開始學習前端技術。</li>
+                            <li>嚮往自由、富創造力、勇於追夢。</li>
+                        </ul>
+                    </section>
+                </div>
+                <!--Skills-->
+                <div class="d_row">
+                    <section id="Skills">
+                        <header class="mainTitle">Skills</header>
+
+                     <!-- chart-html -->
+                    <div id="chartContainer" style="height: 300px; width: 100%;"></div>
+  
+                        <p>能夠從零開始:</p>
+                        <ul>
+                            <li>使用HTML/CSS建立頁面</li>
+                            <li>使用jQuery及JavaScript製作簡單動畫效果</li>
+                            <li>操控DOM元素</li>
+                        </ul>
+
+
+                    </section>
+
+
+                </div>
+                <!--Works-->
+                <div class="d_row">
+                    <section id="Works">
+                        <header class="mainTitle">Works</header>
+                        <p>我的個人網頁:<a href="index.html" target="_blank">personalWebsite</a></p>
+                        <p>我的履歷表:<a href="mytable/mytable.html" target="_blank">我的履歷表</a>(使用<span>&lt;table&gt;</span>)</p>
+                        <p>意見反應:<a href="myform/myform.html" target="_blank">意見反應</a>(使用<span>&lt;form&gt;</span>)</p>
+                        <p>插入影片:<a href="myvideo/myvideo.html" target="_blank">我的影音測試</a>(使用<span>&lt;video&gt;</span>&amp;<span>&lt;audio&gt;</span>)
+                            -<time datetime="2018-10-15 22:41">2018-10-15 22:41</time>
+                        </p>
+                    </section>
+                </div>
+                <!--Contact-->
+                <div class="d_row">
+                    <section id="Contact">
+                        <header class="mainTitle">Contact</header>
+                
+
+                      
+
+                        <address>
+                            <p>
+                                黃敬中(Gene Huang)<br />
+                                Email:<a href="mailto:tutor8110221510@gmail.com">tutor8110221510@gmail.com</a> <br />
+                                Phone:+886 988 836 367<br />
+                                Facebook:<a href="https://www.facebook.com/profile.php?id=100006343500347" target="_blank">黃敬中</a>
+                            </p>
+                        </address>
+                    </section>
+                </div>
+            </div>
+            <footer>Copyright &copy; Gene Huang All rights reserved</footer>
+    </div>
+    <!-- chart-_jq -->
+    <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+    <!-- jq-swiper -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.6/js/swiper.min.js"></script>
+
+    
+</body>
+
+</html>

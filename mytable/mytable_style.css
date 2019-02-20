@@ -1,0 +1,27 @@
+
+body{
+	font-family: Georgia,"微軟正黑體","Times New Roman",Times,serif ;
+}
+header{
+	text-align: center;
+}
+
+#mytable{
+	margin:0px auto;
+	text-align: center;
+	
+
+}
+table{
+	border-collapse: collapse;
+	border:3px solid #062F7A;
+}
+tr,th,td{
+	border:2px solid #062F7A;
+
+}
+
+th,td{
+	padding:5px;
+	height: 30px;
+}

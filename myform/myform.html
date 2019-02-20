@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="zn-TW">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="myform.css">
+	<title>myform</title>
+</head>
+<body>
+	<header>意見反應</header>
+	<form action="http://www.example.com/php" method="POST">
+		<fieldset>
+			<legend>Your Details:</legend>
+				<div>
+				<label for="name" class="title">Name:</label>
+				<input type="text" id="name" name="name" placeholder="input your name..." required>
+				</div>
+
+				<div>
+				<label for="email" class="title">Email:</label>
+				<input type="email" id="email" name="email" placeholder="input your email..." required>
+				</div>
+		</fieldset>
+
+		<fieldset>
+			<legend>Your Review:</legend>
+			<div>
+				<label for="howto_hear" class="title">How did yout hear about us?</label>
+				<select id="howto_hear" name="howtohear">
+					<option value="google">google</option>
+					<option value="yahoo">Yahoo</option>
+					<option value="firefox">Firefox</option>
+				</select>
+			</div>
+			<div>
+				<span class="title">Would you vist again?</span>
+			
+				<input type="radio" class="visit_again" name="again" value="yes"><label for="visit_again">Yes </label>
+				<input type="radio" class="visit_again" name="again" value="no"><label for="visit_again">No </label>
+				<input type="radio" class="visit_again" name="again" value="maybe"><label for="visit_again">Maybe </label>
+			</div>
+
+			<div>
+				<label for="comment" class="title">comment</label>
+				<textarea id="comment"  name="comment" placeholder="comment here..."></textarea>
+			</div>
+
+			<div class="sign">
+				<input type="checkbox" id="agree_email_updates" name="agree_email_updates">
+				 <label for="agree_email_updates">Sign me up for email updates</label>
+			</div>
+			<div class="sub">
+				 <input id="submit" type="submit" name="submit" value="Submit review">
+			</div>
+		</fieldset>
+	</form>	
+</body>
+</html>
